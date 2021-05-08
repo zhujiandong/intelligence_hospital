@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>service</artifactId>
-        <groupId>com.atguigu</groupId>
+        <groupId>com.xxxx</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -13,10 +13,15 @@
     <dependencies>
         <!--引入实体类-->
         <dependency>
-            <groupId>com.atguigu</groupId>
+            <groupId>com.xxxx</groupId>
             <artifactId>model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.xxxx</groupId>
+            <artifactId>service_util</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
